@@ -1,0 +1,9 @@
+class TestApp(unittest.TestCase):
+    def test_add(self):
+        """Test the add function."""
+        self.assertEqual(add(3, 5), 8)
+        self.assertEqual(add(-1, 1), 0)
+        self.assertEqual(add(0, 0), 0)
+
+if _name_ == "_main_":
+    unittest.main()
